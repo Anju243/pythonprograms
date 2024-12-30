@@ -1,0 +1,5 @@
+c=int(input("enter the current year:"))
+f=int(input("enter the final year:"))
+print("the future leap year are:")
+if(x%4==0 and x%100!=0)or(x%400==0):
+    print(x)
